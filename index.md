@@ -28,7 +28,7 @@ When you need to deploy both new application code, and database schema changes, 
 
 ### 3. If needed, adapt first the current application
 
-For those times, when the new application version needs a backwards-incompatible schema change, the way to do it is to add an extra step in between: make first your old application compatible with the new database schema. The old application should be able to work with both the old schema and the new schema, possibly auto-detecting which schema version is in use, if necessary. The deployment is then done during 3 steps done at different times:
+For those times, when the new application version needs a backwards-incompatible schema change, the way to do it is to add an extra step in between: make first your current application compatible with the new database schema. The current application should be able to work with both the old schema and the new schema, possibly auto-detecting which schema version is in use, if necessary. The deployment is then done during 3 steps done at different times:
 
 1. Deploy a minor update to the current application, only adapted to be compatible with both old and new database schema
 2. Deploy the database schema change
