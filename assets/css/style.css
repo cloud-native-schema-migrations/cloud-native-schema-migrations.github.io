@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+/* MeyerWeb Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+    background: #3371e3;
+    font-family: 'Lato', sans-serif;
+    color: #444;
+    line-height: 140%;
+} 
+
+#main_content_wrap {
+    display: flex;
+}
+
+#main_content {
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+    background: #ffffff;
+    width: 700px;
+    margin: auto;
+    padding: 60px 50px 10px 50px;
+}
+
+#forkme_banner {
+  display: block;
+  position: absolute;
+  top:0;
+  right: 10px;
+  z-index: 10;
+  padding: 10px 50px 10px 10px;
+  color: #fff;
+  background: url('../images/blacktocat.png') #78a1ed no-repeat 95% 50%;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+#project_tagline, #project_version {
+   font-style: italic;
+}
+
+/* Anchors */
+a {outline: 0;}
+a img {border: 0px; text-decoration: none;}
+a:link, a:visited {
+	color: #fff;
+	padding: 0 1px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+/* Headings */
+h1 {font-size: 2.5em }
+h2 {font-size: 1.7em}
+h3 {font-size: 1.2em}
+h4 {font-size: 1.0em}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #555;
+	line-height: 1.1;
+	margin-bottom: .8em;
+    font-weight: 700;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #aaa;
+}
+
+
+/* Paragraphs */
+p {margin-bottom: 1.143em;}
+* p:last-child {margin-bottom: 0;}
+
+strong, b {font-weight: bold;}
+em, i {font-style: italic;}
+
+/* Lists */
+ul {
+	list-style: outside disc;
+	margin: 1em 0 1.5em 1.5em;
+}
+
+ol {
+	list-style: outside decimal;
+	margin: 1em 0 1.5em 1.5em;
+}
+
+dl {margin: 0 0 1.5em 0;}
+dt {font-weight: bold;}
+dd {margin-left: 1.5em;}
+
+.github-fork-ribbon {
+	background-color: #444;
+}
