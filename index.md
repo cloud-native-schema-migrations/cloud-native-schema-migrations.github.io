@@ -8,7 +8,7 @@ layout: default
 
 ## Introduction
 
-We felt a need to write this document because, in our opinion, the best practices for database schema migrations have evolved in a direction that isn't well suited to "cloud-native" environments.
+We felt a need to write this document because, in our opinion, the best practices for database schema migrations have evolved in a direction that isn't well suited to cloud-native concepts.
 
 The idea of keeping the database schema and application code close together, and to deploy database schema changes together with application changes, seems to be accepted as best practice. Tools such as Flyway make it very easy to make schema changes, and via migration scripts to automatically upgrade your schema when you deploy the next version of your application.
 
