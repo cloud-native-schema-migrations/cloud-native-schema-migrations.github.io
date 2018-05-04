@@ -2,7 +2,7 @@
 title: Cloud-Native Schema Migrations
 description: A manifesto on headache-free database schema migrations, working well for cloud-native environments and continuous deployment.
 version: 0.1
-updated: 2018-05-03
+updated: 2018-05-04
 layout: default
 ---
 

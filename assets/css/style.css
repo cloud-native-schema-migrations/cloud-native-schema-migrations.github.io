@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-    background: #3371e3;
+    background-color: #4b82e7;
     font-family: 'Lato', sans-serif;
     color: #444;
     line-height: 140%;
@@ -41,11 +41,21 @@ body {
 #main_content {
     border-left: 1px solid #555;
     border-right: 1px solid #555;
-    background: #ffffff;
+    background-color: #ffffff;
     width: 700px;
     margin: auto;
     padding: 60px 50px 10px 50px;
 }
+
+@media only screen and (max-width: 800px) {
+    #main_content {
+        width: auto;
+        padding: 60px 10px 10px 10px;
+        border-left: none;
+        border-right: none;
+    }
+}
+
 
 #forkme_banner {
   display: block;
@@ -80,7 +90,7 @@ a:hover, a:active {
 }
 
 /* Headings */
-h1 {font-size: 2.5em }
+h1 {font-size: 2.2em }
 h2 {font-size: 1.7em}
 h3 {font-size: 1.2em}
 h4 {font-size: 1.0em}
