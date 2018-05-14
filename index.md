@@ -59,4 +59,4 @@ You should store the version of your schema in the database itself, and check at
 ## Signed-by
 
 - David Schweikert, AdNovum Informatik AG
-- ?
+- Your name? Please create a pull request.
